@@ -1016,6 +1016,69 @@ Nula | 2716.5 | 7
 
 ![](/recursos/industrial/fi_analisis_sensibilidad_industria_pesada.png)
 
+## 3. Mapa de aptitud integrado
+
+_El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
+
+### 3.1 Zonas de exclusión
+
+![](/recursos/industrial/mapa_exclusion_industrial.png)
+
+### 3.2 Mapa de aptitud de integrado del sector industrial
+
+![](/recursos/industrial/mapa_aptitud_industrial.png)
+
+**Pesos globales del mapa de aptitud integrado del sector industrial**
+
+Criterio | Peso
+-- | --
+Basureros - Ligera | 0.200
+Energía - Pesada | 0.123
+Industria instalada - Ligera | 0.114
+Industria instalada - Pesada | 0.114
+Comunicación - Ligera | 0.081
+Acceso a agua - Pesada | 0.073
+Energía - Ligera | 0.070
+Cobertura - Ligera | 0.045
+Localidades - Ligera | 0.041
+Localidades - Pesada | 0.041
+Carreteras - varios carriles - Ligera | 0.041
+Acceso a agua - Ligera | 0.037
+Disponibilidad de agua - Pesada | 0.028
+Carreteras-varios carriles - Pesada | 0.026
+Tenencia - Ligera | 0.021
+Tenencia - Pesada | 0.021
+Aeropuertos - Ligera | 0.020
+Puertos - Pesada | 0.016
+Cobertura - Pesada | 0.013
+Comunicación - Pesada | 0.011
+Puertos - Ligera | 0.010
+Rellenos sanitarios - Pesada | 0.008
+Plantas de aguas residual - Pesada | 0.008
+Plantas de aguas residuales - Ligera | 0.006
+Red ferroviaria - Pesada | 0.006
+Rellenos sanitarios - Ligera | 0.005
+Carreteras - un carril - Ligera | 0.005
+Basureros - Pesada | 0.004
+Dispersión de emisiones - Pesada | 0.004
+Red ferroviaria - Ligera| 0.003
+Carreteras -un carril - Pesada | 0.003
+Aeropuertos - Pesada | 0.003
+
+**Área por categoría de aptitud**
+
+Categoría | km² | Porcentaje del   estado
+-- | --: | --:
+Muy alta | 662.7 | 2
+Alta | 2551.4 | 6
+Moderada | 9717.4 | 25
+Baja | 21178.7 | 54
+Muy baja | 2709.8 | 7
+Nula | 2716.5 | 7
+
+### 3.3 Sensibilidad de atributos del sector industrial
+
+![](/recursos/industrial/fi_analisis_sensibilidad_industrial.png)
 <!-- .. csv-table::
    :file: recursos/tabla_c_biofisicos_silvopastoril.csv
    :header-rows: 1

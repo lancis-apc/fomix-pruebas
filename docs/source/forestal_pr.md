@@ -1120,3 +1120,55 @@ Las versiones 1b y 2b del mapa de aptitud de aprovechamiento forestal maderable 
 ![](/recursos/forestal/fi_tabla_nomad_1b_vs_nomad_2b.png)
 
 Para fines del análisis de conflicto se usará la versión 2b debido a que la superficie de las categorías de aptitud alta y muy alta es mayor.
+
+## 3 Mapa de aptitud integrado
+
+_El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
+
+### 3.1 Zonas de exclusión
+
+![](/recursos/forestal/mapa_exclusion_forestal.png)
+
+### 3.2 Mapa de aptitud de integrado del sector de aprovechamiento forestal
+
+![](/recursos/forestal/mapa_aptitud_forestal.png)
+
+**Pesos globales del mapa de aptitud integrado de aprovechamiento forestal**
+
+Criterio | Peso
+-- | --
+Tipo de vegetación- No maderable | 0.130
+Tipo de suelo- No maderable | 0.105
+Tipo de vegetación - Maderable | 0.093
+Clima- No maderable | 0.090
+Aprovechamiento - Maderable | 0.085
+Tenencia - Maderable | 0.084
+Tipo de suelo - Maderable | 0.078
+Clima - Maderable | 0.065
+Tenencia - No maderable | 0.060
+Comunicación - Maderable | 0.046
+Mercados- No maderable | 0.040
+Comunicación- No maderable | 0.030
+Factores de riesgo - No maderable | 0.020
+Mercados - Maderable | 0.017
+Factores de riesgo&nbsp; - Maderable | 0.015
+Abastecimiento - Maderable | 0.010
+Aprovechamiento- No maderable | 0.010
+Centros de almacenamiento -   Maderable | 0.009
+Abastecimiento- No maderable | 0.005
+Centros de almacenamiento- No maderable | 0.005
+
+**Área por categoría de aptitud**
+
+Categoría | km² | Porcentaje del estado
+-- | --: | --:
+Muy alta | 5679.2 | 14
+Alta | 29399.5 | 74
+Moderada | 1868.2 | 5
+Baja | 1389.4 | 4
+Muy baja | 166.4 | 0
+Nula | 1033.9 | 3
+
+### 3.3 Sensibilidad de atributos ambientales de aprovechamiento forestal
+
+![](/recursos/forestal/fi_analisis_sensibilidad_forestal.png)

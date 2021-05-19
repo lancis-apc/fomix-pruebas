@@ -587,7 +587,7 @@ ID | Categoría | Importancia | FV
 
 **Función de valor de tenencia**
 
-![](/recursos/agricultura/mapa_fv_agtem_socio_tene_tenencia_tierra)
+![](/recursos/agricultura/mapa_fv_agtem_socio_tene_tenencia_tierra.png)
 
 #### 2.2.3 Infraestructura
 
@@ -704,3 +704,54 @@ Nula | 2876.3 | 7
 #### 2.3.3 Sensibilidad de atributos de agricultura tecnificada de temporal
 
 ![](/recursos/agricultura/fi_analisis_sensibilidad_agricultura_temporal.png)
+
+## 3. Mapa de aptitud integrado
+
+_El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
+
+### 3.1 Zonas de exclusión
+
+![](/recursos/agricultura/mapa_agricultura_exclusion.png)
+
+### 3.2 Mapa de aptitud integrado del sector agricultura tecnificada
+
+![](/recursos/agricultura/mapa_agricultura_aptitud.png)
+
+**Pesos globales del mapa de aptitud integrado del sector agricultura tecnificada**
+
+Criterio | Peso
+-- | --
+Precipitación - Temporal | 0.157
+Hidroagrícola - Riego | 0.135
+Energía - Riego | 0.126
+Tipo de suelo - Temporal | 0.103
+Disponibilidad de agua - Riego | 0.086
+Pendiente - Temporal | 0.075
+Vías de comunicación -Temporal | 0.054
+Vías de comunicación - Riego | 0.039
+Pendiente - Riego | 0.033
+Mano de obra - Temporal | 0.031
+Mercados - Temporal | 0.031
+Mano de obra - Riego | 0.022
+Mercados - Riego | 0.022
+Tipo de cobertura - Temporal | 0.021
+Tipo de suelo - Riego | 0.021
+Combustible -Temporal | 0.018
+Tipo de cobertura - Riego | 0.011
+Tenencia - Temporal | 0.010
+Tenencia - Riego | 0.007
+
+**Área por categoría de aptitud**
+
+Categoría | km² | Porcentaje del estado
+-- | --: | --:
+Muy alta | 1461.4 | 4
+Alta | 23470.1 | 59
+Moderada | 11295.6 | 29
+Baja | 431.5 | 1
+Muy baja | 1.8 | 0
+Nula | 2876.3 | 7
+
+### 3.3 Sensibilidad de atributos de agricultura tecnificada
+
+![](/recursos/agricultura/fi_analisis_sensibilidad_agricultura.png)

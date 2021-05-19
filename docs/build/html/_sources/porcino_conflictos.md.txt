@@ -1,56 +1,55 @@
-# Aprovechamiento forestal maderable
+# Pecuario porcino y avícola
 
-## Aprovechamiento forestal maderable - Conservación
+## Porcino y avícola **vs.** Urbano
 
-### Naturaleza del conflicto
+### Descripción del conflicto
 
-* Poner a forma de lista con viñetas, enunciados que desciban los principales conflictos entre los dos sectores de la sección
-* Citas o número de registros en formulario
-+ Poner recursos afectados
-
-### Extensión del conflicto (Índice de severidad regional bruta %)
-
-**Categoría** | Muy baja | Baja | Moderada | Alta | Muy alta
--- | -- | -- | -- | -- | --
-**Muy baja** | 2 | 0 | 0 | 1 | 0
-**Baja** | 0 | 0 | 0 | 2 | 1
-**Moderada** | 0 | 2 | 1 | 2 | 0
-**Alta** | 3 | 19 | 16 | **30** | **6**
-**Muy alta** | 0 | 0 | 3 | **8** | **3**
-
-![](/recursos/conflictos/fi_forestal_conservacion_extension.png)
-
-![](/recursos/conflictos/mapa_forestal_eq_cruza_conservacion_eq.png)
-
-### Magnitud del conflicto (Índice de severidad regional neta %)
-
-Categoría | Alta | Muy alta
--- | -- | --
-Alta | 34 | 8
-Muy alta | 17 | 15
-
-Alta-muy alta | 31 |
-
-### Asimetría (Índice de severidad sectorial neta %)
-
-Sector 1 | Alta | Muy alta
--- | -- | --
-Alta | 40 | 8
-Muy alta | 58 | 23
-
-sector 1	37
-
-Sector 2 | Alta | Muy alta
-Alta | 70 | 57
-Muy alta | 19 | 31
-
-sector 2  63  
+- Pérdida de zonas forestales en sitios donde el gobierno da apoyos al sector agrícola
+- Incendios forestales por quemas agropastoriles.
 
 
-## Aprovechamiento forestal maderable - Agricultura tecnificada
+#### Recursos afectados
 
-### Extensión del conflicto (Índice de severidad regional bruta %)
+* Biodiversidad, recursos forestales maderables y no maderables, fauna y suelo
 
-### Magnitud del conflicto (Índice de severidad regional neta %)
 
-### Asimetría (Índice de severidad sectorial neta %)
+#### Ubicación reportada
+
+- Sin dato
+
+
+#### Fuentes
+
+- Taller bovino
+- Clave de registro en formulario: F1, F4 y F23
+
+
+### Superficie de conflicto por categorías de aptitud (km²)
+
+![](/recursos/conflictos/.png)
+
+
+### Mapa de conflictos
+
+Los conflictos ambientales resultan de la sopreposición de las categorías Alta y Muy alta de aptitud de los dos sectores incompatibles.
+
+![](/recursos/conflictos/.png)
+
+
+### Índices de conflictos ambientales
+
+Los índices indican la severidad del conflicto y pueden tener valores entre 0 y 1.
+
+![](/recursos/conflictos/.png)
+
+Pecuario bovino, porcino y avícola vs Urbano
+Descripción del conflicto:
+Contaminación del aire y malos olores generados por los desechos de las granjas porcícolas (emi-siones de amoniaco, sulfuros de hidrógeno metano y dióxido de carbono).
+Recursos afectados:
+Aire
+Ubicación reportada:
+Sin dato
+Fuentes:
+- Batllori 2019, Drucker et al. 2003
+- Taller bovino
+- Clave de registro en formulario: F3 y F9

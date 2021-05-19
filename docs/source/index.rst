@@ -5,9 +5,9 @@
 
 Sistema de conocimiento para la gestión del Ordenamiento Ecológico del Territorio (OET) del estado de Yucatán
 ===============================================================================================================
-.. Análisis de aptitud sectorial-Resultados preliminares
+.. Análisis de aptitud sectorial-Resultados finales
 .. ######################################################
-Análisis de aptitud sectorial-En proceso de actualización
+Análisis de aptitud sectorial-Final
 ###########################################################
 
 Objetivo
@@ -43,7 +43,16 @@ Los productos de los talleres se actualizan conforme se obtienen resultados en l
    :caption: Conflictos:
    
    introduccion
+   agricultura_conflictos
+   bovino_conflictos
+   energia_conflictos
+   forestal_conflictos
+   industrial_conflictos
+   milpa_conflictos
+   mineria_conflictos
    porcino_conflictos
+   turismo_conflictos
+   urbano_conflictos
 
 
 .. Indices and tables

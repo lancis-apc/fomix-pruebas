@@ -9,6 +9,8 @@ Aumentar la apertura de bancos de materiales para cumplir con la demanda de prod
 
 [Lista de participantes](https://www.dropbox.com/s/lxqdnpxi3kjv4hq/lista_asistencia_mineria.pdf?dl=0)
 
+## 1. Minería
+
 ### 1.1 Modelo de decisión
 
 ![](/recursos/mineria/fi_mineria.png)
@@ -1087,3 +1089,63 @@ Nula | 2675.8 | 7
 #### 1.3.8 Sensibilidad de atributos ambientales de rocas con extracción en húmedo
 
 ![](/recursos/mineria/fi_analisis_sensibilidad_mineria_rocas_humedas.png)
+
+## 2. Mapa de aptitud integrado
+
+_El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
+
+### 2.1 Zonas de exclusión
+
+![](/recursos/mineria/mapa_exclusion_mineria.png)
+
+### 2.2 Mapa de aptitud de integrado del sector minería
+
+![](/recursos/mineria/mapa_aptitud_mineria.png)
+
+**Pesos globales del mapa integrado del sector minería**
+
+Tipo de minería | Criterio | Peso
+-- | -- | --
+Rocas con extracción en húmedo | Nivel freático | 0.097
+Rocas con extracción en seco | Nivel freático | 0.097
+Arcillas | Tipo de suelo | 0.084
+Arenas | Tipo de suelo | 0.084
+Arcillas | Nivel freático | 0.058
+Arenas | Nivel freático | 0.056
+Rocas con extracción en húmedo | Tipo de suelo | 0.044
+Rocas con extracción en seco | Tipo de suelo | 0.044
+Arcillas | Localidades | 0.035
+Arenas | Localidades | 0.035
+Rocas con extracción en húmedo | Localidades | 0.035
+Rocas con extracción en seco | Localidades | 0.035
+Rocas con extracción en seco | Tipo de cobertura | 0.029
+Arcillas | Caminos | 0.027
+Arenas | Caminos | 0.027
+Rocas con extracción en húmedo | Caminos | 0.027
+Rocas con extracción en seco | Caminos | 0.027
+Arcillas | Electricidad | 0.023
+Arenas | Electricidad | 0.023
+Rocas con extracción en húmedo | Electricidad | 0.023
+Rocas con extracción en seco | Electricidad | 0.023
+Rocas con extracción en seco | Minas | 0.020
+Rocas con extracción en húmedo | Minas | 0.020
+Arenas | Tipo de cobertura | 0.016
+Arenas | Tipo de cobertura | 0.016
+Arcillas | Tipo de cobertura | 0.015
+Rocas con extracción en húmedo | Tipo de cobertura | 0.015
+Arcillas | Minas | 0.010
+
+**Área por categoría de aptitud**
+
+Categoría | km² | Porcentaje del estado
+-- | --: | --:
+Muy alta | 2001.0 | 5
+Alta | 15047.7 | 38
+Moderada | 10426.0 | 26
+Baja | 9088.6 | 23
+Muy baja | 297.5 | 1
+Nula | 2675.8 | 7
+
+### 2.3 Sensibilidad de atributos ambientales del sector minería
+
+![](/recursos/mineria/fi_analisis_sensibilidad_mineria.png)
