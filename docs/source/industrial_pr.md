@@ -30,7 +30,7 @@ Comunicación | Distancia de 5 km a localidades que se evaluaron con base en el 
 Conectividad | Distancia a vías de comunicación que permiten el movimiento de trabajadores y la distribución de insumos y productos.
 Energía | Distancia a líneas de transmisión eléctrica.
 Acceso a agua | Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de viviendas que disponen de agua entubada.
-Manejo de residuos | Distancia a sitios de disposición final de residuos solidos y agua residual.
+Manejo de residuos | Distancia a sitios de disposición final de residuos sólidos y agua residual.
 
 ##### 1.2.1.1 Comunicación
 
@@ -146,7 +146,7 @@ Distancia a puertos.
 
 Capa | Distancia a puertos
 -- | --
-Fuente | Ubicación de los principales puertos de el estado de Yucatán POETY
+Fuente | Ubicación de los principales puertos del estado de Yucatán POETY
 Año | 2002
 Escala | Sin dato
 Unidades | Kilómetros
@@ -207,10 +207,11 @@ Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de vi
 
 **Insumos**
 
-Capa | Viviendas que disponen de agua entubada por localidad
+Capa | Viviendas que disponen de agua entubada por   localidad
 -- | --
 Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI y [2] Datos de indicador. Censo de Población y Vivienda.   Principales resultados por localidad (ITER) INEGI
 Año | 2020
+Escala | Localidad
 Campo | [2] VIVTOT y VPH_AEASP
 Unidades | Adimensional
 
@@ -224,7 +225,7 @@ Unidades | Adimensional
 
 ##### 1.2.1.5 Manejo de residuos
 
-Distancia a sitios de disposición final de residuos solidos y agua residual.
+Distancia a sitios de disposición final de residuos sólidos y agua residual.
 
 Subcriterio | Definición
 -- | --
@@ -311,8 +312,9 @@ Distancia de 5 km a localidades con unidades económicas registradas en el Direc
 
 Capa | Industria ligera instalada por localidad
 -- | --
-Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y Vivienda INEGI, [2] Datos de indicador. Directorio Estadístico Nacional de Unidades Económicas (DENUE) INEGI y [3] Polígono del Parque Científico Tecnológico de Yucatán. Parques industriales
-Año | [1][2] 2020; [3] ?
+Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI, [2] Datos de indicador. Directorio Estadístico Nacional de   Unidades Económicas (DENUE) INEGI y [3] Polígono del Parque Científico   Tecnológico de Yucatán. Parques industriales en la Península de Yucatán   Ayuntamiento de Mérida
+Año | [1][2] 2020; [3] 2016
+Escala | [1][2] Localidad; [3] 1:65,000
 Unidades | Adimensional
 
 **Función de valor de industria instalada**
@@ -329,7 +331,8 @@ Capa | Distancia a localidades
 -- | --
 Fuente | Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI
 Año | 2020
-Unidades | Adimensional
+Escala | Localidad
+Unidades | Kilómetros
 
 **Parámetros de la función de valor**
 
@@ -502,7 +505,7 @@ Criterio | Definición
 Energía | Distancia a líneas de transmisión eléctrica de 230 KV y 400 KV y a gasoductos.
 Acceso a agua | Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de viviendas que disponen de agua entubada.
 Conectividad | Distancia a vías de comunicación que permiten el movimiento de trabajadores y la distribución de insumos y productos.
-Manejo de residuos | Distancia a sitios de disposición final de residuos solidos y agua residual.
+Manejo de residuos | Distancia a sitios de disposición final de residuos sólidos y agua residual.
 Comunicación | Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de viviendas con internet.
 
 ##### 2.2.1.1 Energía
@@ -532,10 +535,11 @@ Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de vi
 
 **Insumos**
 
-Capa | Viviendas que disponen de agua entubada por localidad
+Capa | Viviendas que disponen de agua entubada por   localidad
 -- | --
 Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI y [2] Datos de indicador. Censo de Población y Vivienda.   Principales resultados por localidad (ITER) INEGI
 Año | 2020
+Escala | Localidad
 Campo | [2] VIVTOT y VPH_AEASP
 Unidades | Adimensional
 
@@ -674,7 +678,7 @@ Unidades | Kilómetros
 
 ##### 2.2.1.4 Manejo de residuos
 
-Distancia a sitios de disposición final de residuos solidos y agua residual.
+Distancia a sitios de disposición final de residuos sólidos y agua residual.
 
 Subcriterio | Definición
 -- | --
@@ -753,8 +757,9 @@ Distancia de 5 km a localidades que se evaluaron con base en el porcentaje de vi
 
 Capa | Viviendas con internet por localidad
 -- | --
-Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y Vivienda INEGI y [2] Datos de indicador. Censo de Población y Vivienda. Principales resultados por localidad (ITER) INEGI
+Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI y [2] Datos de indicador. Censo de Población y Vivienda.   Principales resultados por localidad (ITER) INEGI
 Año | 2020
+Escala | Localidad
 Campo | [2] VIVTOT y VPH_INTER
 Unidades | Porcentaje
 
@@ -782,8 +787,9 @@ Distancia de 5 km a parques industriales y localidades con unidades económicas 
 
 Capa | Industria mediana y pesada instalada
 -- | --
-Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI, [2] Datos de indicador. Directorio Estadístico Nacional de   Unidades Económicas (DENUE) INEGI y [3] Parques industriales
-Año | [1][2] 2020; [3] ?
+Fuente | [1] Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI, [2] Datos de indicador. Directorio Estadístico Nacional de   Unidades Económicas (DENUE) INEGI y [3] Parques industriales en la Península   de Yucatán Ayuntamiento de Mérida
+Año | [1][2] 2020; [3] 2016
+Escala | [1][2] Localidad; [3] 1:65,000
 Unidades | Adimensional
 
 **Función de valor de industria instalada**
@@ -800,6 +806,7 @@ Capa | Distancia a localidades
 -- | --
 Fuente | Polígonos de localidades. Marco Geoestadístico. Censo de Población y   Vivienda INEGI
 Año | 2020
+Escala | Localidad
 Unidades | Kilómetros
 
 **Parámetros de la función de valor**
@@ -852,7 +859,7 @@ Distancia a manto freático.
 Capa | Nivel freático
 -- | --
 Fuente | Nivel freático POETY
-Año | Sin dato
+Año | 2007
 Campo | n_freat_m
 Escala | Estatal
 Unidades | Metros
@@ -956,7 +963,7 @@ Campo | [1] descripcio; [2] Descrip
 Escala | [1] 1:250,000;[2] 1:50,000; [3] Sin dato
 Unidades | Adimensional
 
-**Tabla de exclusión del subsector energía mediana y pesada**
+**Tabla de exclusión del subsector industria mediana y pesada**
 
 [1]
 
@@ -1020,11 +1027,42 @@ Nula | 2716.5 | 7
 
 _El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
 
-### 3.1 Zonas de exclusión
+### 3.1 Modelo de decisión del mapa de aptitud integrado
+
+![](/recursos/industrial/fi_industrial_integrado.png)
+
+#### 3.1.1 Zonas de exclusión
+
+**Insumos**
+
+Capa | Uso del suelo y vegetación y localidades
+-- | --
+Fuente | [1] Conjunto de datos vectoriales de la carta de Uso del suelo y vegetación. Serie VI. Conjunto Nacional INEGI, [2] Mapa de uso del suelo y vegetación de la zona costera asociada a los manglares, Región Península de Yucatán CONABIO y [3] Polígonos de localidades. Marco Geoestadístico. Censo de Población y Vivienda INEGI
+Año | [1] 2017; [2] 2021; [3] 2020
+Campo | [1] descripcio; [2] Descrip
+Escala | [1] 1:250,000;[2] 1:50,000; [3] Sin dato
+Unidades | Adimensional
+
+**Tabla de exclusión**
+
+[1] y [2]
+
+ID | Categoría
+-- | --
+4 | Asentamiento humano
+6 | Cuerpo de agua
+7 | Manglar
+13 | Tular
+14 | Vegetación de duna costera
+15 | Vegetación de petén
+16 | Vegetación halófila hidrófila
+17 | ND
+
+[3] Se seleccionaron las localidades urbanas y Sisal
 
 ![](/recursos/industrial/mapa_exclusion_industrial.png)
 
-### 3.2 Mapa de aptitud de integrado del sector industrial
+#### 3.1.2 Mapa de aptitud de integrado del sector industrial
 
 ![](/recursos/industrial/mapa_aptitud_industrial.png)
 
@@ -1076,7 +1114,7 @@ Baja | 21178.7 | 54
 Muy baja | 2709.8 | 7
 Nula | 2716.5 | 7
 
-### 3.3 Sensibilidad de atributos del sector industrial
+#### 3.1.3 Sensibilidad de atributos del sector industrial
 
 ![](/recursos/industrial/fi_analisis_sensibilidad_industrial.png)
 <!-- .. csv-table::

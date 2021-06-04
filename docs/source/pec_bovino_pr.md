@@ -9,9 +9,9 @@ FOMIX\fmx_estudio_tecnico\diagnostico\talleres\sphinx\docs -->
 * Incrementar sustentablemente la eficiencia y resiliencia de la actividad, a través de la restauración de paisajes y la protección de la biodiversidad, así como la implementación de innovaciones en el sistema de producción.
 * Mantener y restaurar la fertilidad de suelo para obtener suficiente cantidad de biomasa que permita hacer más eficiente la actividad para que la producción por superficie sea rentable en el largo plazo, así como la diversificación de la actividad a sistemas agroforestales u otras actividades.
 
-## 1. Pecuario bovino
+## 1. Bovino extensivo o estabulado
 
-Sistema de producción de ganado bovino extensivo o estabulado, en el que la alimentación se basa principalmente en pastizales de monocultivo de gramíneas forrajeras y el uso de granos (raciones balanceadas).
+Sistema de producción en el que la alimentación se basa principalmente en pastizales de monocultivo de gramíneas forrajeras y el uso de granos (raciones balanceadas).
 
 [Lista de participantes](https://www.dropbox.com/s/2kwmvzi01kj8s4h/lista_asistencia_bovino.pdf?dl=0)
 
@@ -39,7 +39,7 @@ Posibilidad de extraer agua subterránea, considerando el nivel piezométrico.
 Capa | Nivel freático
 -- | --
 Fuente | Nivel freático POETY
-Año | Sin dato
+Año | 2007
 Campo | n_freat_m
 Escala | Estatal
 Unidades | Metros
@@ -313,12 +313,12 @@ Nula | 3047.8 | 8
 
 ![](/recursos/pec_bovino/fi_analisis_sensibilidad_bovino.png)
 
-## 2. Pecuario silvopastoril
+## 2.Bovino silvopastoril
 
 <!-- Ruta de la documentación:
 CARPETAS_TRABAJO\vhernandez\aptitud_fomix_docs -->
 
-Sistema de producción bovina integrada a especies arbóreas, arbustivas con gramíneas forrajeras.
+Sistema de producción bovina en el que la alimentación está integrada a especies arbóreas, arbustivas con gramíneas forrajeras.
 
 [Lista de participantes](https://www.dropbox.com/s/uqmvq4qrembvk9e/lista_asistencia_silvopastoril.pdf?dl=0)
 
@@ -352,7 +352,7 @@ Acceso a la posibilidad de extraer agua del acuífero para el consumo del ganado
 Capa | Nivel freático
 -- | --
 Fuente | Nivel freático POETY
-Año | Sin dato
+Año | 2007
 Campo | n_freat_m
 Escala | Estatal
 Unidades | Metros
@@ -470,18 +470,18 @@ Unidades | Adimensional
 
 ID | Categoría | Expresión verbal | FV
 -- | -- | -- | --
-1 | Arenosol | Baja | 0.56
+8 | Nitosol | Extremadamente alta | 1.00
+6 | Leptosol | Alta | 0.80
+7 | Luvisol | Alta | 0.80
 2 | Cambisol | Moderada | 0.70
 3 | Chernozem | Moderada | 0.70
 4 | Gleysol | Moderada | 0.70
-5 | Histosol | Nula | 0.00
-6 | Leptosol | Alta | 0.80
-7 | Luvisol | Alta | 0.80
-8 | Nitosol | Extremadamente alta | 1.00
-9 | Phaeozem | Baja | 0.56
 10 | Regosol | Moderada | 0.70
-11 | Solonchak | Nula | 0.00
 12 | Vertisol | Moderada | 0.70
+1 | Arenosol | Baja | 0.56
+9 | Phaeozem | Baja | 0.56
+5 | Histosol | Nula | 0.00
+11 | Solonchak | Nula | 0.00
 
 <!-- .. csv-table:: Tipo de suelo
    :file: recursos/tabla_fv_cat_suelo_silvopastoril.csv
@@ -596,7 +596,7 @@ Accesibilidad a mercados foráneos | Distancia a puntos de venta de carne (Campe
    :header-rows: 1
    :align: center -->
 
-###### 2.2.2.2.1 Accesibilidad a mercados locales**
+###### 2.2.2.2.1 Accesibilidad a mercados locales
 
 Distancia a puntos de venta local de becerros (Tizimín, Valladolid, Mérida y Tzucacab).
 
@@ -621,7 +621,7 @@ Unidades | Kilómetros
 
 ![](/recursos/silvopastoril/mapa_fv_gbe_sil_socio_d_mercados_loc.png)
 
-###### 2.2.2.2.2 Accesibilidad a mercados foráneos**
+###### 2.2.2.2.2 Accesibilidad a mercados foráneos
 
 Distancia a puntos de venta de carne (Campeche, Cancún, Playa del Carmen).  
 
@@ -729,11 +729,37 @@ Nula | 3021.0 | 8
 
 _El mapa de aptitud se integró considerando que los subsectores son igualmente importantes y, por lo tanto, tienen el mismo peso._
 
-### 3.1 Zonas de exclusión
+### 3.1 Modelo de decisión del mapa de aptitud integrado
+
+![](/recursos/pec_bovino/fi_bov_integrado.png)  
+
+#### 3.1.1 Zonas de exclusión
+
+**Insumos**
+
+Capa | Uso del suelo y vegetación y localidades
+-- | --
+Fuente | [1] Conjunto de datos vectoriales de la carta de Uso del suelo y vegetación. Serie VI. Conjunto Nacional INEGI, [2] Mapa de uso del suelo y vegetación de la zona costera asociada a los manglares, Región Península de Yucatán CONABIO y [3] Polígonos de localidades. Marco Geoestadístico. Censo de Población y Vivienda INEGI
+Año | [1] 2017; [2] 2021; [3] 2020
+Campo | [1] descripcio; [2] Descrip
+Escala | [1] 1:250,000;[2] 1:50,000; [3] Sin dato
+Unidades | Adimensional
+
+**Tabla de exclusión**
+
+ID | Categoría
+-- | --
+1 | Acuícola
+6 | Cuerpo de agua
+7 | Manglar
+13 | Tular
+14 | Vegetación de duna costera
+15 | Vegetación de petén
+16 | Vegetación halófila hidrófila
 
 ![](/recursos/pec_bovino/mapa_bov_integrado_exclusion.png)  
 
-### 3.2 Mapa de aptitud integrado del sector pecuario bovino
+#### 3.1.2 Mapa de aptitud integrado del sector pecuario bovino
 
 ![](/recursos/pec_bovino/mapa_bov_integrado_aptitud.png)
 
@@ -775,6 +801,6 @@ Baja | 147.6 | 0
 Muy baja | 820.9 | 2
 Nula | 2927.2 | 7
 
-### 3.3 Sensibilidad del mapa de aptitud integrado del sector pecuario bovino
+#### 3.1.3 Sensibilidad del mapa de aptitud integrado del sector pecuario bovino
 
 ![](/recursos/pec_bovino/fi_analisis_sensibilidad_bovino_integrado.png)
