@@ -22,7 +22,7 @@ Los productos de los talleres se actualizan conforme se obtienen resultados en l
 
 .. toctree::
    :maxdepth: 6
-   :caption: Sectores:
+   :caption: Análisis de aptitud:
 
    acuacultura_pr
    agricultura_pr
@@ -43,15 +43,18 @@ Los productos de los talleres se actualizan conforme se obtienen resultados en l
    :caption: Conflictos:
    
    introduccion
+   acuacultura_s_conflictos
    agricultura_conflictos
-   bovino_conflictos
+   conservacion_conflictos
    energia_conflictos
    forestal_conflictos
    industrial_conflictos
    milpa_conflictos
    mineria_conflictos
+   bovino_conflictos
    porcino_conflictos
    turismo_conflictos
+   turismo_sol_playa_conflictos
    urbano_conflictos
 
 
