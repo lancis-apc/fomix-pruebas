@@ -40,7 +40,7 @@ Los productos de los talleres se actualizan conforme se obtienen resultados en l
 
 .. toctree::
    :maxdepth: 6
-   :caption: Conflictos:
+   :caption: Análisis de conflictos:
    
    introduccion
    acuacultura_s_conflictos
@@ -56,7 +56,7 @@ Los productos de los talleres se actualizan conforme se obtienen resultados en l
    turismo_conflictos
    turismo_sol_playa_conflictos
    urbano_conflictos
-
+   referencias
 
 .. Indices and tables
 .. ==================
